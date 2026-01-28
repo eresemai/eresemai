@@ -321,7 +321,7 @@ sequenceDiagram
 ![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Engineering-F59E0B?style=flat-square)
 
 ### **LLM APIs**
-![OpenAI](https://img.shields.io/badge/-OpenAI%20GPT--4-412991?style=flat-square&logo=openai&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI%20GPT--5-412991?style=flat-square&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/-Anthropic%20Claude%204.5-181818?style=flat-square)
 ![Gemini](https://img.shields.io/badge/-Google%20Gemini%203.0-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Mistral](https://img.shields.io/badge/-Mistral-FF7000?style=flat-square)
