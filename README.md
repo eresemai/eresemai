@@ -368,10 +368,10 @@ sequenceDiagram
 
 ### 🚀 Contribution Highlights
 
-- **116+ Pull Requests** merged across projects ([view all](https://github.com/search?q=is:pr+author:eresemai))
-- **294+ Commits** with active development ([view all](https://github.com/search?q=author:eresemai&sort=author-date&order=desc))
-- **Primary Focus**: INTERACTIVE-WEG3D-DEV (3D Architectural Visualization Platform)
-- **Recent Activity**: Latest PR #157 "Claude Code infrastructure" (3 days ago)
+- **116+ Pull Requests** merged across projects
+- **294+ Commits** with active development
+- **Primary Focus**: 3D Architectural Visualization Platform
+- **Recent Activity**: Latest PR #157 Code infrastructure
 - **Code Quality**: High merge rate with comprehensive code reviews
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=eresemai&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9)
