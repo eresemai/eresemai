@@ -3,7 +3,6 @@
 # ⚖️ Serhii Rozum | Legal AI Engineer & Architect 🤖
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-serhiirozum-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/serhiirozum)
-[![Email](https://img.shields.io/badge/Email-serhiirozum@icloud.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:serhiirozum@icloud.com)
 [![Location](https://img.shields.io/badge/Location-Munich%2C%20Germany-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)]()
 
 ### 🏛️ 20 Years Legal Practice × 💡 4+ Years AI Engineering × 🔬 LegalTech Innovation
