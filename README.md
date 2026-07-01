@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header&text=Serhii%20Rozum&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=AI%20Research%20%C3%97%20AI%20Engineering%20for%20Rule%20of%20Law%2C%20Human%20Rights%20%26%20LegalTech&descAlignY=78&descSize=16" width="100%" alt="Serhii Rozum" />
+<img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/hero-banner.svg" width="100%" alt="Serhii Rozum" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-serhiirozum-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/serhiirozum)
 [![Location](https://img.shields.io/badge/Munich%2C%20Germany-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)]()
@@ -56,7 +56,7 @@ Since 2017 I've also built and run businesses — founding and leading teams and
 
 ---
 
-## Business & ventures (since 2017)
+## Business & ventures
 
 Founded, led, or advised on multiple ventures. Without naming each one, the throughlines:
 
