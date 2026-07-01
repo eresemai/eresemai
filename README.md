@@ -31,10 +31,10 @@ Since 2017 I've also built and run businesses — founding and leading teams and
 ### 🔬 AI Research & Policy
 
 - Sociotechnical research on AI, law, and democratic institutions — where AI systems should (and shouldn't) exercise legal judgment
-- Human rights, migration and integration policy work, including cross-border research collaboration with EU institutions and programs
-- Legal alignment questions: evaluating whether AI systems interpret and follow the law correctly, and where they fail
-- LL.M. International Law & European Relations, Ukrainian Free University Munich (in progress)
-- LL.M. Jurisprudence, Yaroslav Mudryi National Law University
+- Human rights, migration and integration policy — international cooperation with European Commission institutions, including the International Centre for Migration Policy Development (ICMPD)
+- Legal-domain LLM design and evaluation for migration & integration casework; legal alignment questions on where AI systems follow — or fail — the law
+- Translating legal and migration research into product and policy recommendations, drawing on experience as an international legal consultant across Europe
+- LL.M. International Law & European Relations, Ukrainian Free University Munich (in progress) · LL.M. Jurisprudence, Yaroslav Mudryi National Law University
 
 </td>
 <td width="50%" valign="top">
@@ -43,6 +43,7 @@ Since 2017 I've also built and run businesses — founding and leading teams and
 
 - Design and ship production AI systems (agents, RAG, evaluation harnesses) that operationalize the research
 - Spec-driven development (SDD), TDD, agent-loop and skills engineering as day-to-day practice
+- Experimental design and data analysis, sharpened by continuously testing and measuring what works while building ventures
 - Founder and lead on multiple business ventures and teams since 2017, spanning legal-tech products, AI-driven services, and early-stage startups
 - 21 years of legal practice as the domain layer under the engineering
 - AI research & engineering practice since 2025
