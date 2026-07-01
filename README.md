@@ -4,6 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-serhiirozum-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/serhiirozum)
 [![Location](https://img.shields.io/badge/Munich%2C%20Germany-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)]()
+[![Entrepreneur](https://img.shields.io/badge/Entrepreneur-since%202017-F59E0B?style=for-the-badge)]()
 [![Open to](https://img.shields.io/badge/Open%20to-Research%20%26%20Engineering%20roles-39D353?style=for-the-badge)]()
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1500&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Research+%C3%97+AI+Engineering;Rule+of+Law+%C3%97+LegalTech;21+years+in+law+%C2%B7+AI+since+2025" alt="Typing SVG" />
@@ -23,7 +24,7 @@ I'm currently reading for an LL.M. in International Law & European Relations at 
 Since 2017 I've also built and run businesses — founding and leading teams and product ventures. That's the engineering side of the same coin: research tells me what's broken, building things is how I test whether a fix actually works.
 
 <div align="center">
-<img src="assets/research-engineering-loop.svg" width="100%" alt="AI Research and AI Engineering feedback loop" />
+<img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/research-engineering-loop.svg" width="100%" alt="AI Research and AI Engineering feedback loop" />
 </div>
 
 <table>
@@ -70,7 +71,7 @@ Founded, led, or advised on multiple ventures. Without naming each one, the thro
 
 ### 🏢 Enterprise Document Automation System
 
-<img src="assets/project-doc-automation.svg" width="100%" alt="Enterprise document automation agent flow" />
+<img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/project-doc-automation.svg" width="100%" alt="Enterprise document automation agent flow" />
 
 Multi-agent system (5 specialized agents) automating legal document generation, review, and approval — an orchestrator routes work to research and legal agents, results merge through a RAG pipeline into drafting, with a human review gate before delivery.
 
@@ -81,7 +82,7 @@ Multi-agent system (5 specialized agents) automating legal document generation, 
 
 ### 🌍 Migration Support Multi-Agent System
 
-<img src="assets/project-migration-support.svg" width="100%" alt="Migration support multi-agent system flow" />
+<img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/project-migration-support.svg" width="100%" alt="Migration support multi-agent system flow" />
 
 Multilingual system for refugee and migration support — detects the query language, then routes to legal consultation, document processing, and translation agents that converge into a single multilingual response.
 
@@ -93,7 +94,7 @@ Multilingual system for refugee and migration support — detects the query lang
 
 ### 🔎 AI Legal Research Assistant
 
-<img src="assets/project-legal-research-rag.svg" width="100%" alt="AI legal research assistant hybrid RAG flow" />
+<img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/project-legal-research-rag.svg" width="100%" alt="AI legal research assistant hybrid RAG flow" />
 
 Hybrid RAG system for Ukrainian and European legislation — combines dense (semantic) and sparse (BM25) retrieval, reranks results, and generates cited answers tuned for legal terminology.
 
@@ -103,7 +104,7 @@ Hybrid RAG system for Ukrainian and European legislation — combines dense (sem
 
 ### 🏗️ 3D Architectural Visualization AI Platform
 
-<img src="assets/project-3d-visualization.svg" width="100%" alt="3D architectural visualization platform flow" />
+<img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/project-3d-visualization.svg" width="100%" alt="3D architectural visualization platform flow" />
 
 Full-stack microservices platform turning technical drawings into 3D visualizations — a Go backend handles upload and preprocessing, parallel AI-generation and rendering services write to Postgres/Neon, and a React + TypeScript frontend streams results in real time, with golden-vector test parity between the Go and TypeScript layers.
 
@@ -117,7 +118,10 @@ Full-stack microservices platform turning technical drawings into 3D visualizati
 `Spec-Driven Development (SDD)` `OpenSpec` `TDD` `Agent-loop engineering` `Skills engineering`
 
 **Agentic coding platforms**
-`Claude Code CLI` `Codex CLI` `Cursor` `Devin`
+`Claude Code CLI` `Codex CLI` `Cursor` `Devin` `Pi (pi.dev)`
+
+**Harness engineering**
+`Harness — AI Code Agent & agent runtime (harness.io)` `Harness engineering practice (constraints & feedback loops around agents)`
 
 **Skills & frameworks**
 `Superpowers — obra/superpowers` `Matt Pocock — Skills for Real Engineers (mattpocock/skills)` `andrej-karpathy-skills — forrestchang/andrej-karpathy-skills`
@@ -141,9 +145,9 @@ Full-stack microservices platform turning technical drawings into 3D visualizati
 `Python` `Go` `TypeScript` `React / Next.js`
 
 <div align="center">
-<img src="assets/career-timeline.svg" width="100%" alt="Career timeline from 2005 to 2026" />
+<img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/career-timeline.svg" width="100%" alt="Career timeline from 2005 to 2026" />
 <br/><br/>
-<img src="assets/focus-allocation.svg" width="100%" alt="Current focus allocation" />
+<img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/focus-allocation.svg" width="100%" alt="Current focus allocation" />
 </div>
 
 ---
@@ -183,20 +187,6 @@ Full-stack microservices platform turning technical drawings into 3D visualizati
 | Post-review document accuracy | 98%+ |
 
 </details>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=eresemai&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=eresemai&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=eresemai&theme=dark&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353)
-
-</div>
 
 ---
 
