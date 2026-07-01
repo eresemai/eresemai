@@ -1,8 +1,8 @@
-<svg role="img" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+<svg role="img" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg">
 <title>Serhii Rozum — AI Research times AI Engineering for Rule of Law, Human Rights and LegalTech</title>
-<desc>Animated terminal-styled hero banner with a gradient name, tagline, and a pulsing accent underline.</desc>
+<desc>Animated terminal-styled hero banner with a gradient name, tagline, location/entrepreneur/open-to pills, and a pulsing accent underline.</desc>
 <defs>
-<clipPath id="cardClipH"><rect x="1" y="1" width="898" height="198" rx="16"/></clipPath>
+<clipPath id="cardClipH"><rect x="1" y="1" width="898" height="248" rx="16"/></clipPath>
 <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
 <stop offset="0%" stop-color="#5DCAA5"><animate attributeName="offset" values="-0.3;1" dur="4s" repeatCount="indefinite"/></stop>
 <stop offset="50%" stop-color="#58a6ff"><animate attributeName="offset" values="0.2;1.5" dur="4s" repeatCount="indefinite"/></stop>
@@ -10,20 +10,31 @@
 </linearGradient>
 </defs>
 <g clip-path="url(#cardClipH)">
-<rect x="1" y="1" width="898" height="198" fill="#0d1117"/>
+<rect x="1" y="1" width="898" height="248" fill="#0d1117"/>
 <rect x="1" y="1" width="898" height="30" fill="#161b22"/>
 <circle cx="22" cy="16" r="5" fill="#ff5f56"/>
 <circle cx="40" cy="16" r="5" fill="#ffbd2e"/>
 <circle cx="58" cy="16" r="5" fill="#27c93f"/>
 <text x="82" y="20" font-size="11" fill="#8b949e" font-family="ui-monospace,monospace">whoami</text>
 
-<text x="450" y="105" text-anchor="middle" font-size="46" font-weight="600" fill="url(#nameGrad)" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Serhii Rozum</text>
-<text x="450" y="140" text-anchor="middle" font-size="16" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">AI Research &#215; AI Engineering for Rule of Law, Human Rights &amp; LegalTech</text>
+<text x="450" y="100" text-anchor="middle" font-size="46" font-weight="600" fill="url(#nameGrad)" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Serhii Rozum</text>
+<text x="450" y="134" text-anchor="middle" font-size="16" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">AI Research &#215; AI Engineering for Rule of Law, Human Rights &amp; LegalTech</text>
 
-<rect x="350" y="158" width="200" height="3" rx="1.5" fill="#39d353" opacity="0.8">
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">
+<rect x="308" y="156" width="150" height="26" rx="13" fill="#21262d" stroke="#30363d"/>
+<text x="383" y="173" text-anchor="middle" fill="#c9d1d9">&#128205; Munich, Germany</text>
+
+<rect x="470" y="156" width="112" height="26" rx="13" fill="#332019" stroke="#F0997B"/>
+<text x="526" y="173" text-anchor="middle" fill="#f5b79a">Entrepreneur</text>
+
+<rect x="308" y="190" width="284" height="26" rx="13" fill="#0d2e21" stroke="#39d353"/>
+<text x="450" y="207" text-anchor="middle" fill="#7ee2ac">Open to Research &amp; Engineering roles</text>
+</g>
+
+<rect x="350" y="228" width="200" height="3" rx="1.5" fill="#39d353" opacity="0.8">
 <animate attributeName="width" values="0;200;200;0" keyTimes="0;0.4;0.6;1" dur="3.6s" repeatCount="indefinite"/>
 <animate attributeName="x" values="450;350;350;450" keyTimes="0;0.4;0.6;1" dur="3.6s" repeatCount="indefinite"/>
 </rect>
 </g>
-<rect x="1" y="1" width="898" height="198" rx="16" fill="none" stroke="#30363d"/>
+<rect x="1" y="1" width="898" height="248" rx="16" fill="none" stroke="#30363d"/>
 </svg>

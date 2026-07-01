@@ -2,10 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/eresemai/eresemai/main/assets/hero-banner.svg" width="100%" alt="Serhii Rozum" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-serhiirozum-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/serhiirozum)
-[![Location](https://img.shields.io/badge/Munich%2C%20Germany-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)]()
-[![Entrepreneur](https://img.shields.io/badge/Entrepreneur-F59E0B?style=for-the-badge)]()
-[![Open to](https://img.shields.io/badge/Open%20to-Research%20%26%20Engineering%20roles-39D353?style=for-the-badge)]()
+[![LinkedIn](https://img.shields.io/badge/-Connect%20on%20LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=58A6FF)](https://linkedin.com/in/serhiirozum)
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1500&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Research+%C3%97+AI+Engineering;Rule+of+Law+%C3%97+LegalTech;21+years+in+law+%C2%B7+AI+since+2025" alt="Typing SVG" />
 
