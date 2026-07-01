@@ -1,0 +1,44 @@
+<svg role="img" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+<title>AI legal research assistant hybrid RAG flow</title>
+<desc>Animated terminal-styled diagram showing a legal query flowing through dense and sparse retrieval in parallel, into reranking, then LLM generation, producing a cited answer.</desc>
+<defs>
+<clipPath id="cardClipF"><rect x="1" y="1" width="698" height="298" rx="16"/></clipPath>
+<linearGradient id="flowGrad3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F0997B"/><stop offset="100%" stop-color="#7F77DD"/></linearGradient>
+</defs>
+<g clip-path="url(#cardClipF)">
+<rect x="1" y="1" width="698" height="298" fill="#0d1117"/>
+<rect x="1" y="1" width="698" height="30" fill="#161b22"/>
+<circle cx="22" cy="16" r="5" fill="#ff5f56"/>
+<circle cx="40" cy="16" r="5" fill="#ffbd2e"/>
+<circle cx="58" cy="16" r="5" fill="#27c93f"/>
+<text x="82" y="20" font-size="11" fill="#8b949e" font-family="ui-monospace,monospace">legal-research-assistant --hybrid-rag</text>
+
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600">
+<rect x="24" y="128" width="110" height="44" rx="8" fill="#332019" stroke="#F0997B"/>
+<text x="79" y="154" text-anchor="middle" fill="#f5b79a">Query</text>
+
+<rect x="196" y="70" width="130" height="44" rx="8" fill="#0f2036" stroke="#378ADD"/>
+<text x="261" y="96" text-anchor="middle" fill="#a8cef7">Dense retrieval</text>
+
+<rect x="196" y="186" width="130" height="44" rx="8" fill="#12291f" stroke="#1D9E75"/>
+<text x="261" y="212" text-anchor="middle" fill="#7ee2ac">Sparse (BM25)</text>
+
+<rect x="390" y="128" width="110" height="44" rx="8" fill="#331a24" stroke="#D4537E"/>
+<text x="445" y="154" text-anchor="middle" fill="#f0a8c3">Rerank</text>
+
+<rect x="556" y="128" width="120" height="44" rx="8" fill="#211a35" stroke="#534AB7"/>
+<text x="616" y="148" text-anchor="middle" fill="#c9a8ff">Generate</text>
+<text x="616" y="162" text-anchor="middle" fill="#8b949e" font-weight="400" font-size="9">answer + citations</text>
+
+<path d="M134,150 L196,92" stroke="#378ADD" stroke-width="2" fill="none"/>
+<path d="M134,150 L196,208" stroke="#1D9E75" stroke-width="2" fill="none"/>
+<path d="M326,92 L390,146" stroke="#378ADD" stroke-width="2" fill="none"/>
+<path d="M326,208 L390,158" stroke="#1D9E75" stroke-width="2" fill="none"/>
+<path d="M500,150 L556,150" stroke="#D4537E" stroke-width="2" fill="none"/>
+
+<circle r="5" fill="url(#flowGrad3)"><animateMotion dur="2.8s" repeatCount="indefinite" path="M79,150 L261,92 L445,150 L616,150"/></circle>
+<circle r="4" fill="#7ee2ac"><animateMotion dur="2.8s" begin="0.35s" repeatCount="indefinite" path="M79,150 L261,208 L445,150 L616,150"/></circle>
+</g>
+</g>
+<rect x="1" y="1" width="698" height="298" rx="16" fill="none" stroke="#30363d"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg role="img" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg">
+<title>Migration support multi-agent system flow</title>
+<desc>Animated terminal-styled diagram showing a multilingual user query flowing through language detection into legal consultation, document processing, and translation agents, converging into multilingual response generation.</desc>
+<defs>
+<clipPath id="cardClipE"><rect x="1" y="1" width="698" height="338" rx="16"/></clipPath>
+<linearGradient id="flowGrad2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#378ADD"/><stop offset="100%" stop-color="#39d353"/></linearGradient>
+</defs>
+<g clip-path="url(#cardClipE)">
+<rect x="1" y="1" width="698" height="338" fill="#0d1117"/>
+<rect x="1" y="1" width="698" height="30" fill="#161b22"/>
+<circle cx="22" cy="16" r="5" fill="#ff5f56"/>
+<circle cx="40" cy="16" r="5" fill="#ffbd2e"/>
+<circle cx="58" cy="16" r="5" fill="#27c93f"/>
+<text x="82" y="20" font-size="11" fill="#8b949e" font-family="ui-monospace,monospace">migration-support-system</text>
+
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600">
+
+<rect x="24" y="150" width="110" height="44" rx="8" fill="#0f2036" stroke="#378ADD"/>
+<text x="79" y="168" text-anchor="middle" fill="#a8cef7">Query</text>
+<text x="79" y="182" text-anchor="middle" fill="#8b949e" font-weight="400" font-size="9">UA / EN / DE</text>
+
+<rect x="196" y="60" width="130" height="44" rx="8" fill="#331a24" stroke="#D4537E"/>
+<text x="261" y="86" text-anchor="middle" fill="#f0a8c3">Legal consultation</text>
+
+<rect x="196" y="150" width="130" height="44" rx="8" fill="#332019" stroke="#F0997B"/>
+<text x="261" y="176" text-anchor="middle" fill="#f5b79a">Document processing</text>
+
+<rect x="196" y="240" width="130" height="44" rx="8" fill="#12291f" stroke="#1D9E75"/>
+<text x="261" y="266" text-anchor="middle" fill="#7ee2ac">Translation</text>
+
+<rect x="450" y="150" width="130" height="44" rx="8" fill="#211a35" stroke="#534AB7"/>
+<text x="515" y="170" text-anchor="middle" fill="#c9a8ff">Response gen.</text>
+<text x="515" y="184" text-anchor="middle" fill="#8b949e" font-weight="400" font-size="9">multilingual output</text>
+
+<path d="M134,172 L196,82" stroke="#378ADD" stroke-width="2" fill="none"/>
+<path d="M134,172 L196,172" stroke="#378ADD" stroke-width="2" fill="none"/>
+<path d="M134,172 L196,262" stroke="#378ADD" stroke-width="2" fill="none"/>
+<path d="M326,82 L450,164" stroke="#D4537E" stroke-width="2" fill="none"/>
+<path d="M326,172 L450,172" stroke="#F0997B" stroke-width="2" fill="none"/>
+<path d="M326,262 L450,180" stroke="#1D9E75" stroke-width="2" fill="none"/>
+
+<circle r="5" fill="url(#flowGrad2)"><animateMotion dur="3s" repeatCount="indefinite" path="M79,172 L261,172 L515,172"/></circle>
+<circle r="4" fill="#f0a8c3"><animateMotion dur="3s" begin="0.3s" repeatCount="indefinite" path="M79,172 L261,82 L515,164"/></circle>
+<circle r="4" fill="#7ee2ac"><animateMotion dur="3s" begin="0.6s" repeatCount="indefinite" path="M79,172 L261,262 L515,180"/></circle>
+</g>
+</g>
+<rect x="1" y="1" width="698" height="338" rx="16" fill="none" stroke="#30363d"/>
+</svg>

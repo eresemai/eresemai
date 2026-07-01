@@ -1,0 +1,55 @@
+<svg role="img" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+<title>AI Research and AI Engineering feedback loop</title>
+<desc>Animated diagram styled as a macOS terminal window showing gradient nodes for AI Research and Policy and AI Engineering and Delivery connected by flowing animated paths with tag pills.</desc>
+<defs>
+<clipPath id="cardClipA"><rect x="1" y="1" width="698" height="298" rx="16"/></clipPath>
+<radialGradient id="gTealA" cx="35%" cy="35%" r="70%"><stop offset="0%" stop-color="#2fbf8f"/><stop offset="100%" stop-color="#0F6E56"/></radialGradient>
+<radialGradient id="gBlueA" cx="35%" cy="35%" r="70%"><stop offset="0%" stop-color="#4f9eea"/><stop offset="100%" stop-color="#185FA5"/></radialGradient>
+<marker id="arrowT3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5DCAA5"/></marker>
+<marker id="arrowB3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#85B7EB"/></marker>
+</defs>
+
+<g clip-path="url(#cardClipA)">
+<rect x="1" y="1" width="698" height="298" fill="#0d1117"/>
+<rect x="1" y="1" width="698" height="30" fill="#161b22"/>
+<circle cx="22" cy="16" r="5" fill="#ff5f56"/>
+<circle cx="40" cy="16" r="5" fill="#ffbd2e"/>
+<circle cx="58" cy="16" r="5" fill="#27c93f"/>
+<text x="82" y="20" font-size="11" fill="#8b949e" font-family="ui-monospace,monospace">research &#8644; engineering loop</text>
+
+<path d="M 495,124 Q 350,54 205,124" fill="none" stroke="#1D9E75" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arrowT3)">
+<animate attributeName="stroke-dashoffset" from="120" to="0" dur="3s" repeatCount="indefinite"/>
+</path>
+<path d="M 200,199 Q 350,269 490,199" fill="none" stroke="#378ADD" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arrowB3)">
+<animate attributeName="stroke-dashoffset" from="0" to="120" dur="3s" repeatCount="indefinite"/>
+</path>
+<circle r="5" fill="#7ee2ac"><animateMotion dur="3s" repeatCount="indefinite" path="M 495,124 Q 350,54 205,124"/></circle>
+<circle r="5" fill="#a8cef7"><animateMotion dur="3s" repeatCount="indefinite" path="M 200,199 Q 350,269 490,199"/></circle>
+
+<circle cx="145" cy="161" r="60" fill="none" stroke="#1D9E75" stroke-width="1" stroke-dasharray="3 6" opacity="0.5">
+<animateTransform attributeName="transform" type="rotate" from="0 145 161" to="360 145 161" dur="14s" repeatCount="indefinite"/>
+</circle>
+<circle cx="145" cy="161" r="46" fill="url(#gTealA)"/>
+<text x="145" y="155" text-anchor="middle" font-size="14" font-weight="600" fill="#eafff5">AI Research</text>
+<text x="145" y="172" text-anchor="middle" font-size="14" font-weight="600" fill="#eafff5">&amp; Policy</text>
+<g font-size="10.5" fill="#7ee2ac">
+<rect x="70" y="236" width="66" height="20" rx="10" fill="#12291f"/><text x="103" y="249" text-anchor="middle">rule of law</text>
+<rect x="140" y="236" width="86" height="20" rx="10" fill="#12291f"/><text x="183" y="249" text-anchor="middle">human rights</text>
+<rect x="70" y="262" width="98" height="20" rx="10" fill="#12291f"/><text x="119" y="275" text-anchor="middle">EU cooperation</text>
+</g>
+
+<circle cx="555" cy="161" r="60" fill="none" stroke="#378ADD" stroke-width="1" stroke-dasharray="3 6" opacity="0.5">
+<animateTransform attributeName="transform" type="rotate" from="360 555 161" to="0 555 161" dur="14s" repeatCount="indefinite"/>
+</circle>
+<circle cx="555" cy="161" r="46" fill="url(#gBlueA)"/>
+<text x="555" y="155" text-anchor="middle" font-size="14" font-weight="600" fill="#eaf3ff">AI Engineering</text>
+<text x="555" y="172" text-anchor="middle" font-size="14" font-weight="600" fill="#eaf3ff">&amp; Delivery</text>
+<g font-size="10.5" fill="#a8cef7">
+<rect x="478" y="236" width="94" height="20" rx="10" fill="#0f2036"/><text x="525" y="249" text-anchor="middle">Claude Agent SDK</text>
+<rect x="478" y="262" width="60" height="20" rx="10" fill="#0f2036"/><text x="508" y="275" text-anchor="middle">SDD</text>
+<rect x="542" y="262" width="94" height="20" rx="10" fill="#0f2036"/><text x="589" y="275" text-anchor="middle">production systems</text>
+</g>
+<text x="350" y="166" text-anchor="middle" font-size="10.5" fill="#6e7681">legaltech</text>
+</g>
+<rect x="1" y="1" width="698" height="298" rx="16" fill="none" stroke="#30363d"/>
+</svg>

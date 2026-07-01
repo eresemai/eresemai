@@ -1,0 +1,60 @@
+<svg role="img" viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg">
+<title>Career timeline from 2005 to 2026</title>
+<desc>Animated dark terminal-styled timeline: 2005 state governance and law enforcement, 2017 first ventures, 2018 to present attorney and managing partner, 2022 to present LL.M. Munich, 2025 AI research and engineering begins, 2026 dual track research times engineering.</desc>
+<defs>
+<clipPath id="cardClipB"><rect x="1" y="1" width="698" height="218" rx="16"/></clipPath>
+<linearGradient id="lineGradB" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1D9E75"/><stop offset="50%" stop-color="#378ADD"/><stop offset="100%" stop-color="#D4537E"/></linearGradient>
+</defs>
+<g clip-path="url(#cardClipB)">
+<rect x="1" y="1" width="698" height="218" fill="#0d1117"/>
+<rect x="1" y="1" width="698" height="30" fill="#161b22"/>
+<circle cx="22" cy="16" r="5" fill="#ff5f56"/>
+<circle cx="40" cy="16" r="5" fill="#ffbd2e"/>
+<circle cx="58" cy="16" r="5" fill="#27c93f"/>
+<text x="82" y="20" font-size="11" fill="#8b949e" font-family="ui-monospace,monospace">2005 &#8594; 2026</text>
+
+<line x1="60" y1="120" x2="650" y2="120" stroke="url(#lineGradB)" stroke-width="3" stroke-dasharray="590" stroke-dashoffset="590">
+<animate attributeName="stroke-dashoffset" from="590" to="0" dur="2.4s" fill="freeze"/>
+</line>
+
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.5s" fill="freeze"/>
+<circle cx="60" cy="120" r="7" fill="#1D9E75"/>
+<text x="60" y="96" text-anchor="middle" font-size="10.5" fill="#e6edf3" font-weight="600">2005</text>
+<text x="60" y="146" text-anchor="middle" font-size="9" fill="#8b949e">state governance</text>
+<text x="60" y="158" text-anchor="middle" font-size="9" fill="#8b949e">&amp; law enforcement</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.5s" fill="freeze"/>
+<circle cx="178" cy="120" r="7" fill="#5DCAA5"/>
+<text x="178" y="96" text-anchor="middle" font-size="10.5" fill="#e6edf3" font-weight="600">2017</text>
+<text x="178" y="146" text-anchor="middle" font-size="9" fill="#8b949e">first ventures &amp;</text>
+<text x="178" y="158" text-anchor="middle" font-size="9" fill="#8b949e">team leadership</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.5s" fill="freeze"/>
+<circle cx="296" cy="120" r="7" fill="#378ADD"/>
+<text x="296" y="96" text-anchor="middle" font-size="10.5" fill="#e6edf3" font-weight="600">2018&#8211;present</text>
+<text x="296" y="146" text-anchor="middle" font-size="9" fill="#8b949e">attorney &amp;</text>
+<text x="296" y="158" text-anchor="middle" font-size="9" fill="#8b949e">managing partner</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.5s" fill="freeze"/>
+<circle cx="414" cy="120" r="7" fill="#85B7EB"/>
+<text x="414" y="96" text-anchor="middle" font-size="10.5" fill="#e6edf3" font-weight="600">2022&#8211;present</text>
+<text x="414" y="146" text-anchor="middle" font-size="9" fill="#8b949e">LL.M.</text>
+<text x="414" y="158" text-anchor="middle" font-size="9" fill="#8b949e">Munich</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.5s" fill="freeze"/>
+<circle cx="532" cy="120" r="7" fill="#7F77DD"/>
+<text x="532" y="96" text-anchor="middle" font-size="10.5" fill="#e6edf3" font-weight="600">2025</text>
+<text x="532" y="146" text-anchor="middle" font-size="9" fill="#8b949e">AI research &amp;</text>
+<text x="532" y="158" text-anchor="middle" font-size="9" fill="#8b949e">engineering begin</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.85s" dur="0.5s" fill="freeze"/>
+<circle cx="640" cy="120" r="8" fill="#D4537E"/>
+<text x="622" y="96" text-anchor="middle" font-size="10.5" fill="#e6edf3" font-weight="600">2026</text>
+<text x="622" y="146" text-anchor="middle" font-size="9" fill="#8b949e">research &#215;</text>
+<text x="622" y="158" text-anchor="middle" font-size="9" fill="#8b949e">engineering</text>
+</g>
+</g>
+</g>
+<rect x="1" y="1" width="698" height="218" rx="16" fill="none" stroke="#30363d"/>
+</svg>
