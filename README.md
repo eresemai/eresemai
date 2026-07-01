@@ -4,7 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-serhiirozum-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/serhiirozum)
 [![Location](https://img.shields.io/badge/Munich%2C%20Germany-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)]()
-[![Entrepreneur](https://img.shields.io/badge/Entrepreneur-since%202017-F59E0B?style=for-the-badge)]()
+[![Entrepreneur](https://img.shields.io/badge/Entrepreneur-F59E0B?style=for-the-badge)]()
 [![Open to](https://img.shields.io/badge/Open%20to-Research%20%26%20Engineering%20roles-39D353?style=for-the-badge)]()
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1500&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Research+%C3%97+AI+Engineering;Rule+of+Law+%C3%97+LegalTech;21+years+in+law+%C2%B7+AI+since+2025" alt="Typing SVG" />
@@ -164,6 +164,8 @@ Full-stack microservices platform turning technical drawings into 3D visualizati
 - LL.M. Jurisprudence — Yaroslav Mudryi National Law University, Kharkiv, Ukraine (2006)
 
 **Certifications**
+- Crash Course: Agentic Engineering for Greenfield Projects (Fwdays, mentored by Vyacheslav Koldovskyi, June 2026)
+- Agentic Engineering (Kyrylo Sulimovskyi, 2026)
 - AI Agents Development & Integration (FWDays, 2025)
 - Tax Law 7.0: Ukraine & International (Business Consulting Academy, 2023)
 - Digital Law X.0: IT Business Legal Support — GDPR, IP, Structuring (2022)
