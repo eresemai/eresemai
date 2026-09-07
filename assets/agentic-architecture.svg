@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
+  <title id="t">Agentic Architecture — Orchestrator, specialists, RAG, HITL, eval</title>
+  <desc id="d">Quiet architecture diagram with pulse on orchestrator and sequential path highlight.</desc>
+  <defs>
+    <filter id="csh" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.045"/>
+    </filter>
+    <linearGradient id="pathFlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#5B6CFF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <animate attributeName="y1" values="-0.5;1" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="0;1.5" dur="3.2s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" fill="#FBFBFD"/>
+  <text x="48" y="40" font-family="SF Pro Display, Inter, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#86868B">ERESEMAI</text>
+  <text x="48" y="78" font-family="SF Pro Display, Inter, -apple-system, sans-serif" font-size="26" font-weight="600" fill="#1D1D1F">Agentic Architecture</text>
+  <text x="48" y="106" font-family="SF Pro Text, Inter, -apple-system, sans-serif" font-size="14" fill="#6E6E73">Orchestration · specialist agents · RAG · eval gates · human-in-the-loop</text>
+
+  <!-- vertical connectors -->
+  <line x1="600" y1="148" x2="600" y2="188" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="600" y1="148" x2="600" y2="188" stroke="url(#pathFlow)" stroke-width="2"/>
+  <line x1="280" y1="248" x2="280" y2="278" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="600" y1="248" x2="600" y2="278" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="920" y1="248" x2="920" y2="278" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="280" y1="220" x2="920" y2="220" stroke="#E5E5EA" stroke-width="1.5"/>
+
+  <!-- Orchestrator -->
+  <g font-family="SF Pro Text, Inter, -apple-system, sans-serif">
+    <rect x="460" y="124" width="280" height="48" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
+    <circle cx="488" cy="148" r="5" fill="#5B6CFF">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="506" y="153" font-size="14" font-weight="600" fill="#1D1D1F">Orchestrator</text>
+    <text x="620" y="153" font-size="12" fill="#86868B">routing · policy</text>
+
+    <!-- Specialists row -->
+    <rect x="160" y="196" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
+    <rect x="160" y="196" width="240" height="52" rx="16" fill="none" stroke="#5B6CFF" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0" keyTimes="0;0.05;0.2;0.22;0.25;0.5;0.75;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="280" y="227" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Research agent</text>
+
+    <rect x="480" y="196" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
+    <rect x="480" y="196" width="240" height="52" rx="16" fill="none" stroke="#5B6CFF" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.22;0.25;0.27;0.45;0.47;0.5;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="227" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Drafting agent</text>
+
+    <rect x="800" y="196" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
+    <rect x="800" y="196" width="240" height="52" rx="16" fill="none" stroke="#5B6CFF" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.45;0.47;0.5;0.52;0.70;0.72;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="920" y="227" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Review agent</text>
+
+    <!-- Bottom row -->
+    <rect x="160" y="278" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
+    <text x="280" y="309" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">RAG / retrieval</text>
+
+    <rect x="480" y="278" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
+    <rect x="480" y="278" width="240" height="52" rx="16" fill="none" stroke="#5B6CFF" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" keyTimes="0;0.70;0.72;0.74;0.75;0.77;0.92;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="309" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">HITL gate</text>
+
+    <rect x="800" y="278" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
+    <circle cx="828" cy="304" r="4" fill="#34C759"/>
+    <text x="920" y="309" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Eval / ship</text>
+  </g>
+</svg>

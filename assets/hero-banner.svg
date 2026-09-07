@@ -1,40 +1,51 @@
-<svg role="img" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg">
-<title>Serhii Rozum — AI Research times AI Engineering for Rule of Law, Human Rights and LegalTech</title>
-<desc>Animated terminal-styled hero banner with a gradient name, tagline, location/entrepreneur/open-to pills, and a pulsing accent underline.</desc>
-<defs>
-<clipPath id="cardClipH"><rect x="1" y="1" width="898" height="248" rx="16"/></clipPath>
-<linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#5DCAA5"><animate attributeName="offset" values="-0.3;1" dur="4s" repeatCount="indefinite"/></stop>
-<stop offset="50%" stop-color="#58a6ff"><animate attributeName="offset" values="0.2;1.5" dur="4s" repeatCount="indefinite"/></stop>
-<stop offset="100%" stop-color="#bc8cff"><animate attributeName="offset" values="0.7;2" dur="4s" repeatCount="indefinite"/></stop>
-</linearGradient>
-</defs>
-<g clip-path="url(#cardClipH)">
-<rect x="1" y="1" width="898" height="248" fill="#0d1117"/>
-<rect x="1" y="1" width="898" height="30" fill="#161b22"/>
-<circle cx="22" cy="16" r="5" fill="#ff5f56"/>
-<circle cx="40" cy="16" r="5" fill="#ffbd2e"/>
-<circle cx="58" cy="16" r="5" fill="#27c93f"/>
-<text x="82" y="20" font-size="11" fill="#8b949e" font-family="ui-monospace,monospace">whoami</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">ERESEMAI — Serhii Rozum, Legal AI Engineer / Architect</title>
+  <desc id="d">Apple-minimal light hero with ERESEMAI wordmark and Spec–Agent–Eval loop. Soft SMIL motion. No logos.</desc>
+  <defs>
+    <filter id="s" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000000" flood-opacity="0.05"/>
+    </filter>
+    <linearGradient id="ringFlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#5B6CFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0.15"/>
+      <animate attributeName="x1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="1;0;1" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="#FBFBFD"/>
+  <rect x="56" y="56" width="1088" height="308" rx="28" fill="#FFFFFF" stroke="#ECECEF" filter="url(#s)"/>
+  <text x="100" y="120" font-family="SF Pro Display, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#86868B">ERESEMAI</text>
+  <text x="100" y="188" font-family="SF Pro Display, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="48" font-weight="600" fill="#1D1D1F">Serhii Rozum</text>
+  <text x="100" y="230" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="400" fill="#6E6E73">Legal AI Engineer / Architect</text>
+  <text x="100" y="286" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#1D1D1F">Agentic Engineering · SDD · AI SDLC · Agentic Architecture</text>
+  <text x="100" y="318" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#86868B">Munich</text>
 
-<text x="450" y="100" text-anchor="middle" font-size="46" font-weight="600" fill="url(#nameGrad)" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Serhii Rozum</text>
-<text x="450" y="134" text-anchor="middle" font-size="16" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">AI Research &#215; AI Engineering for Rule of Law, Human Rights &amp; LegalTech</text>
-
-<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600">
-<rect x="308" y="156" width="150" height="26" rx="13" fill="#21262d" stroke="#30363d"/>
-<text x="383" y="173" text-anchor="middle" fill="#c9d1d9">&#128205; Munich, Germany</text>
-
-<rect x="470" y="156" width="112" height="26" rx="13" fill="#332019" stroke="#F0997B"/>
-<text x="526" y="173" text-anchor="middle" fill="#f5b79a">Entrepreneur</text>
-
-<rect x="308" y="190" width="284" height="26" rx="13" fill="#0d2e21" stroke="#39d353"/>
-<text x="450" y="207" text-anchor="middle" fill="#7ee2ac">Open to Research &amp; Engineering roles</text>
-</g>
-
-<rect x="350" y="228" width="200" height="3" rx="1.5" fill="#39d353" opacity="0.8">
-<animate attributeName="width" values="0;200;200;0" keyTimes="0;0.4;0.6;1" dur="3.6s" repeatCount="indefinite"/>
-<animate attributeName="x" values="450;350;350;450" keyTimes="0;0.4;0.6;1" dur="3.6s" repeatCount="indefinite"/>
-</rect>
-</g>
-<rect x="1" y="1" width="898" height="248" rx="16" fill="none" stroke="#30363d"/>
+  <g transform="translate(780,120)">
+    <circle cx="80" cy="80" r="70" fill="none" stroke="#E5E5EA" stroke-width="1.5"/>
+    <circle cx="80" cy="80" r="70" fill="none" stroke="url(#ringFlow)" stroke-width="2" stroke-dasharray="8 10">
+      <animate attributeName="stroke-dashoffset" values="0;72" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Spec node -->
+    <circle cx="80" cy="20" r="11" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
+      <animate attributeName="stroke" values="#D2D2D7;#5B6CFF;#D2D2D7;#D2D2D7;#D2D2D7" keyTimes="0;0.08;0.25;0.33;1" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Agent node -->
+    <circle cx="140" cy="110" r="11" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
+      <animate attributeName="stroke" values="#D2D2D7;#D2D2D7;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.33;0.41;0.58;1" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Eval node -->
+    <circle cx="20" cy="110" r="11" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
+      <animate attributeName="stroke" values="#D2D2D7;#D2D2D7;#D2D2D7;#5B6CFF;#D2D2D7" keyTimes="0;0.58;0.66;0.83;1" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="80" y="24" text-anchor="middle" font-size="8" fill="#6E6E73" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Spec</text>
+    <text x="140" y="114" text-anchor="middle" font-size="8" fill="#6E6E73" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Agent</text>
+    <text x="20" y="114" text-anchor="middle" font-size="8" fill="#6E6E73" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Eval</text>
+    <circle cx="80" cy="80" r="4" fill="#5B6CFF">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3.5;5;3.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>

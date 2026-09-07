@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">Legal research and evaluation systems</title>
+  <desc id="d">Hybrid retrieval, rerank, cited generation, and legal evaluation loop. Essence only.</desc>
+  <defs>
+    <filter id="sh3" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.045"/>
+    </filter>
+    <linearGradient id="flowLeg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5B6CFF" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;1" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="3.4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="#FBFBFD"/>
+  <text x="48" y="40" font-family="SF Pro Display, Inter, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#86868B">ERESEMAI</text>
+  <text x="48" y="78" font-family="SF Pro Display, Inter, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#1D1D1F">Legal research &amp; evaluation</text>
+  <text x="48" y="106" font-family="SF Pro Text, Inter, -apple-system, sans-serif" font-size="14" fill="#6E6E73">Hybrid retrieval · rerank · cited answers · legal alignment evals</text>
+
+  <line x1="120" y1="200" x2="1080" y2="200" stroke="#E5E5EA" stroke-width="2"/>
+  <line x1="120" y1="200" x2="1080" y2="200" stroke="url(#flowLeg)" stroke-width="2.5"/>
+
+  <g font-family="SF Pro Text, Inter, -apple-system, sans-serif">
+    <rect x="88" y="158" width="168" height="84" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#sh3)"/>
+    <rect x="88" y="158" width="168" height="84" rx="18" fill="none" stroke="#5B6CFF" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.15;0.17;0.4;0.7;0.98;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="172" y="190" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Query</text>
+    <text x="172" y="212" text-anchor="middle" font-size="11" fill="#86868B">legal intent</text>
+
+    <rect x="292" y="158" width="168" height="84" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#sh3)"/>
+    <rect x="292" y="158" width="168" height="84" rx="18" fill="none" stroke="#5B6CFF" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.15;0.17;0.35;0.37;0.7;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="376" y="190" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Hybrid RAG</text>
+    <text x="376" y="212" text-anchor="middle" font-size="11" fill="#86868B">dense + sparse</text>
+
+    <rect x="496" y="158" width="168" height="84" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#sh3)"/>
+    <rect x="496" y="158" width="168" height="84" rx="18" fill="none" stroke="#5B6CFF" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.35;0.37;0.39;0.55;0.57;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="580" y="190" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Rerank</text>
+    <text x="580" y="212" text-anchor="middle" font-size="11" fill="#86868B">domain terms</text>
+
+    <rect x="700" y="158" width="168" height="84" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#sh3)"/>
+    <rect x="700" y="158" width="168" height="84" rx="18" fill="none" stroke="#5B6CFF" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.55;0.57;0.59;0.61;0.75;0.77" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="784" y="190" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Cite &amp; answer</text>
+    <text x="784" y="212" text-anchor="middle" font-size="11" fill="#86868B">grounded output</text>
+
+    <rect x="904" y="158" width="192" height="84" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#sh3)"/>
+    <rect x="904" y="158" width="192" height="84" rx="18" fill="none" stroke="#34C759" stroke-width="1.25" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" keyTimes="0;0.75;0.77;0.79;0.8;0.82;0.96;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="928" cy="184" r="4" fill="#34C759"/>
+    <text x="1000" y="190" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Eval loop</text>
+    <text x="1000" y="212" text-anchor="middle" font-size="11" fill="#86868B">legal alignment</text>
+  </g>
+
+  <text x="48" y="290" font-family="SF Pro Text, Inter, sans-serif" font-size="12" fill="#86868B">Python · Embeddings · Hybrid retrieval · Eval harness</text>
+</svg>
