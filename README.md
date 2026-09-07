@@ -17,8 +17,6 @@ I design and ship production systems where **law, agents, and product engineerin
 
 **21 years in law** (governance & private practice) as the domain layer. Founder / operator since 2017. Day-to-day: **Agentic Engineering**, **SDD / OpenSpec**, **AI SDLC**, and **Agentic Architecture** — specs first, constrained agent loops, humans on the critical path when judgment matters.
 
-**ERESEMAI**
-
 <div align="center">
 <img src="assets/about-loop.svg" width="100%" alt="Law domain ↔ Agentic systems ↔ Product delivery" />
 </div>
@@ -122,8 +120,28 @@ Hybrid retrieval over legislation and case material, reranking for legal termino
 | **AI sales / marketing automation** | Agent workflows for docs, mockups, and delivery pipelines | TypeScript · Python · CI |
 | **Migration / multilingual support agents** | UA · DE · EN routing across legal consult, docs, translation | Agents · multilingual NLP · privacy-by-design |
 | **Public SDD greenfield** | Bilingual invoice app as agentic / OpenSpec practice | [Invoice Maker (Fwdays 2026)](https://github.com/eresemai/2026-fwdays-agentic-greenfield-task-INVOICE-MAKER-2026) · Next.js · TypeScript · SDD |
+| **Agent skills (fork)** | Upstream skills pack used in daily agentic practice | [skills](https://github.com/eresemai/skills) · fork of [coleam00/skills](https://github.com/coleam00/skills) |
 
 ---
+
+
+---
+
+## Evidence (anonymized)
+
+Outcomes from production systems (no clients named):
+
+| Signal | Result |
+|--------|--------|
+| Document cycle time | **45–60 min → 3–5 min** per case after agent draft + human review gate |
+| Throughput | **1,500+** documents / month through assisted pipelines |
+| Review quality | **≥98%** post-review acceptance on gated outputs (human remains final authority) |
+
+How to verify on a tech screen: architecture walkthroughs in the public notes below — failure modes, HITL boundaries, and eval loops included.
+
+**Architecture notes (public, sanitized)**  
+- [Legal AI · Agentic systems](https://github.com/eresemai/legal-ai-agentic-architecture)  
+- [Real-estate 3D interactives](https://github.com/eresemai/re-3d-interactive-architecture)
 
 ## Credentials & qualifications
 
