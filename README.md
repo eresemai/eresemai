@@ -2,7 +2,7 @@
 
 <img src="assets/hero-banner.svg" width="100%" alt="ERESEMAI — Serhii Rozum, Legal AI Engineer / Architect" />
 
-**Legal AI Engineer / Architect** · Munich  
+**Legal AI Engineer / Architect**  
 Agentic Engineering · Spec-Driven Development · AI SDLC · Agentic Architecture
 
 [LinkedIn](https://www.linkedin.com/in/serhiirozum) · Open to research, consulting & engineering collaboration
@@ -17,7 +17,11 @@ I design and ship production systems where **law, agents, and product engineerin
 
 **21 years in law** (governance & private practice) as the domain layer. Founder / operator since 2017. Day-to-day: **Agentic Engineering**, **SDD / OpenSpec**, **AI SDLC**, and **Agentic Architecture** — specs first, constrained agent loops, humans on the critical path when judgment matters.
 
-Based in Munich · **ERESEMAI**
+**ERESEMAI**
+
+<div align="center">
+<img src="assets/about-loop.svg" width="100%" alt="Law domain ↔ Agentic systems ↔ Product delivery" />
+</div>
 
 ---
 
@@ -41,6 +45,10 @@ Based in Munich · **ERESEMAI**
 ---
 
 ## Tech stack
+
+<div align="center">
+<img src="assets/stack-animated.svg" width="100%" alt="Tech stack — Languages, Platform, Agents, 3D, Practice" />
+</div>
 
 **Languages & UI**  
 `Go` `TypeScript` `Python` `React` `Next.js` `Astro`
@@ -119,6 +127,10 @@ Hybrid retrieval over legislation and case material, reranking for legal termino
 
 ## Credentials & qualifications
 
+<div align="center">
+<img src="assets/credentials-strip.svg" width="100%" alt="Credentials — 21y law, LL.M., Agentic Engineering, ERESEM Managing Partner" />
+</div>
+
 - **21 years in law** — state governance & law-enforcement administration (2005–2017); Attorney in Ukraine & private practice (2018–present)
 - **Managing Partner**, Law Firm **ERESEM** (2018–present)
 - **Specializations:** Tax Law · IT Law · GDPR / DSGVO · International frameworks · Administrative Law · Contract Law
@@ -143,6 +155,10 @@ Ukrainian / Russian — Native · English — Professional (B2) · German — In
 
 ## Let's collaborate
 
+<div align="center">
+<img src="assets/collaboration-cta.svg" width="100%" alt="Let's collaborate — research, consulting, partnerships, build together" />
+</div>
+
 I'm looking for partners and roles where **Legal AI architecture**, **agentic delivery**, and **real-estate 3D product engineering** create leverage:
 
 | | |
@@ -162,6 +178,6 @@ I'm looking for partners and roles where **Legal AI architecture**, **agentic de
 
 <div align="center">
 
-**ERESEMAI** · Munich · Open to collaboration
+**ERESEMAI** · Open to collaboration
 
 </div>

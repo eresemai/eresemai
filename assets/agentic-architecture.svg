@@ -35,35 +35,45 @@
   <line x1="280" y1="220" x2="920" y2="220" stroke="url(#hFlow)" stroke-width="2"/>
 
   <!-- packets -->
-  <circle r="3.5" fill="#5B6CFF">
-    <animateMotion dur="2s" repeatCount="indefinite" path="M600,148 L600,196"/>
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="0.7s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="3" fill="#5B6CFF">
-    <animateMotion dur="3s" repeatCount="indefinite" path="M280,220 L920,220"/>
+  <circle r="4" fill="#5B6CFF">
+    <animateMotion dur="1.4s" repeatCount="indefinite" path="M600,148 L600,196"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="0.55s" repeatCount="indefinite"/>
   </circle>
   <circle r="2.5" fill="#5B6CFF" opacity="0.75">
-    <animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M280,220 L920,220"/>
+    <animateMotion dur="1.4s" begin="0.7s" repeatCount="indefinite" path="M600,148 L600,196"/>
   </circle>
-  <circle r="2.5" fill="#34C759" opacity="0.85">
-    <animateMotion dur="2.2s" begin="0.4s" repeatCount="indefinite" path="M600,248 L600,278"/>
+  <circle r="3.5" fill="#5B6CFF">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M280,220 L920,220"/>
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="0.6s" repeatCount="indefinite"/>
   </circle>
-  <circle r="2.2" fill="#5B6CFF" opacity="0.7">
-    <animateMotion dur="2.2s" repeatCount="indefinite" path="M280,248 L280,278"/>
+  <circle r="3" fill="#5B6CFF" opacity="0.8">
+    <animateMotion dur="2.2s" begin="0.7s" repeatCount="indefinite" path="M280,220 L920,220"/>
   </circle>
-  <circle r="2.2" fill="#5B6CFF" opacity="0.7">
-    <animateMotion dur="2.2s" begin="0.8s" repeatCount="indefinite" path="M920,248 L920,278"/>
+  <circle r="3" fill="#34C759" opacity="0.9">
+    <animateMotion dur="2.2s" begin="1.4s" repeatCount="indefinite" path="M280,220 L920,220"/>
+  </circle>
+  <circle r="3" fill="#34C759" opacity="0.9">
+    <animateMotion dur="1.5s" begin="0.3s" repeatCount="indefinite" path="M600,248 L600,278"/>
+  </circle>
+  <circle r="2.5" fill="#5B6CFF" opacity="0.8">
+    <animateMotion dur="1.5s" repeatCount="indefinite" path="M280,248 L280,278"/>
+  </circle>
+  <circle r="2.5" fill="#5B6CFF" opacity="0.8">
+    <animateMotion dur="1.5s" begin="0.5s" repeatCount="indefinite" path="M920,248 L920,278"/>
+  </circle>
+  <circle r="2.2" fill="#5B6CFF" opacity="0.55">
+    <animateMotion dur="2.8s" repeatCount="indefinite" path="M920,220 L280,220"/>
   </circle>
 
   <g font-family="SF Pro Text, Inter, -apple-system, sans-serif">
     <!-- Orchestrator -->
     <rect x="460" y="124" width="280" height="48" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
     <rect x="460" y="124" width="280" height="48" rx="16" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0.35">
-      <animate attributeName="opacity" values="0.25;0.9;0.25" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.9;0.25" dur="1.4s" repeatCount="indefinite"/>
     </rect>
     <circle cx="488" cy="148" r="5" fill="#5B6CFF">
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="4;7;4" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="4;8;4" dur="1.1s" repeatCount="indefinite"/>
     </circle>
     <text x="506" y="153" font-size="14" font-weight="600" fill="#1D1D1F">Orchestrator</text>
     <text x="620" y="153" font-size="12" fill="#86868B">routing · policy</text>
@@ -71,28 +81,28 @@
     <!-- Specialists -->
     <rect x="160" y="196" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
     <rect x="160" y="196" width="240" height="52" rx="16" fill="none" stroke="#5B6CFF" stroke-width="2" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0" keyTimes="0;0.05;0.2;0.22;0.25;0.5;0.75;1" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0" keyTimes="0;0.05;0.2;0.22;0.25;0.5;0.75;1" dur="5s" repeatCount="indefinite"/>
     </rect>
     <circle cx="184" cy="222" r="4" fill="#D2D2D7">
-      <animate attributeName="fill" values="#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.05;0.2;0.22;1" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.05;0.2;0.22;1" dur="5s" repeatCount="indefinite"/>
     </circle>
     <text x="280" y="227" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Research agent</text>
 
     <rect x="480" y="196" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
     <rect x="480" y="196" width="240" height="52" rx="16" fill="none" stroke="#5B6CFF" stroke-width="2" opacity="0">
-      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.22;0.25;0.27;0.45;0.47;0.5;1" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.22;0.25;0.27;0.45;0.47;0.5;1" dur="5s" repeatCount="indefinite"/>
     </rect>
     <circle cx="504" cy="222" r="4" fill="#D2D2D7">
-      <animate attributeName="fill" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.25;0.27;0.45;0.47;1" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.25;0.27;0.45;0.47;1" dur="5s" repeatCount="indefinite"/>
     </circle>
     <text x="600" y="227" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Drafting agent</text>
 
     <rect x="800" y="196" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
     <rect x="800" y="196" width="240" height="52" rx="16" fill="none" stroke="#5B6CFF" stroke-width="2" opacity="0">
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.45;0.47;0.5;0.52;0.70;0.72;1" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.45;0.47;0.5;0.52;0.70;0.72;1" dur="5s" repeatCount="indefinite"/>
     </rect>
     <circle cx="824" cy="222" r="4" fill="#D2D2D7">
-      <animate attributeName="fill" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.5;0.52;0.70;0.72;1" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.5;0.52;0.70;0.72;1" dur="5s" repeatCount="indefinite"/>
     </circle>
     <text x="920" y="227" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">Review agent</text>
 
@@ -105,13 +115,13 @@
 
     <rect x="480" y="278" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
     <rect x="480" y="278" width="240" height="52" rx="16" fill="none" stroke="#5B6CFF" stroke-width="2" opacity="0">
-      <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" keyTimes="0;0.70;0.72;0.74;0.75;0.77;0.92;1" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" keyTimes="0;0.70;0.72;0.74;0.75;0.77;0.92;1" dur="5s" repeatCount="indefinite"/>
     </rect>
     <text x="600" y="309" text-anchor="middle" font-size="13" font-weight="600" fill="#1D1D1F">HITL gate</text>
 
     <rect x="800" y="278" width="240" height="52" rx="16" fill="#FFFFFF" stroke="#ECECEF" filter="url(#csh)"/>
     <rect x="800" y="278" width="240" height="52" rx="16" fill="none" stroke="#34C759" stroke-width="2" opacity="0">
-      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.75;0.8;0.85;0.88;0.9;0.92;0.98;1" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.75;0.8;0.85;0.88;0.9;0.92;0.98;1" dur="5s" repeatCount="indefinite"/>
     </rect>
     <circle cx="828" cy="304" r="4" fill="#34C759">
       <animate attributeName="r" values="3.5;6;3.5" dur="1.6s" repeatCount="indefinite"/>

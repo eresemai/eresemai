@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">Tech stack — Languages, Platform, Agents, 3D, Practice</title>
+  <desc id="d">Interactive tech stack board with sequential chip highlights and connecting flow packets.</desc>
+  <defs>
+    <filter id="stSh" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.04"/>
+    </filter>
+    <linearGradient id="stFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5B6CFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;1" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="1.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="stFlowV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5B6CFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <animate attributeName="y1" values="-0.5;1" dur="1.7s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="0;1.5" dur="1.7s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="#FBFBFD"/>
+  <text x="48" y="36" font-family="SF Pro Display, Inter, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#86868B">ERESEMAI</text>
+  <text x="48" y="68" font-family="SF Pro Display, Inter, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#1D1D1F">Tech stack board</text>
+
+  <!-- spine connectors -->
+  <line x1="80" y1="108" x2="1120" y2="108" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="80" y1="108" x2="1120" y2="108" stroke="url(#stFlow)" stroke-width="2.5"/>
+  <line x1="200" y1="108" x2="200" y2="150" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="200" y1="108" x2="200" y2="150" stroke="url(#stFlowV)" stroke-width="2"/>
+  <line x1="520" y1="108" x2="520" y2="150" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="520" y1="108" x2="520" y2="150" stroke="url(#stFlowV)" stroke-width="2"/>
+  <line x1="840" y1="108" x2="840" y2="150" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="840" y1="108" x2="840" y2="150" stroke="url(#stFlowV)" stroke-width="2"/>
+  <line x1="360" y1="268" x2="360" y2="290" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="760" y1="268" x2="760" y2="290" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="200" y1="268" x2="1000" y2="268" stroke="#E5E5EA" stroke-width="1.5"/>
+  <line x1="200" y1="268" x2="1000" y2="268" stroke="url(#stFlow)" stroke-width="2"/>
+
+  <!-- packets -->
+  <circle r="4" fill="#5B6CFF">
+    <animateMotion dur="2.6s" repeatCount="indefinite" path="M80,108 L1120,108"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="0.65s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#5B6CFF" opacity="0.8">
+    <animateMotion dur="2.6s" begin="0.8s" repeatCount="indefinite" path="M80,108 L1120,108"/>
+  </circle>
+  <circle r="3.5" fill="#34C759" opacity="0.9">
+    <animateMotion dur="2.6s" begin="1.6s" repeatCount="indefinite" path="M80,108 L1120,108"/>
+  </circle>
+  <circle r="3" fill="#5B6CFF">
+    <animateMotion dur="1.4s" repeatCount="indefinite" path="M200,108 L200,150"/>
+  </circle>
+  <circle r="2.5" fill="#5B6CFF" opacity="0.75">
+    <animateMotion dur="1.4s" begin="0.4s" repeatCount="indefinite" path="M520,108 L520,150"/>
+  </circle>
+  <circle r="2.5" fill="#34C759" opacity="0.85">
+    <animateMotion dur="1.4s" begin="0.8s" repeatCount="indefinite" path="M840,108 L840,150"/>
+  </circle>
+  <circle r="3.5" fill="#5B6CFF">
+    <animateMotion dur="2.8s" repeatCount="indefinite" path="M200,268 L1000,268"/>
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="0.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.5" fill="#34C759" opacity="0.85">
+    <animateMotion dur="2.8s" begin="1.2s" repeatCount="indefinite" path="M200,268 L1000,268"/>
+  </circle>
+
+  <g font-family="SF Pro Text, Inter, -apple-system, sans-serif">
+    <!-- Languages panel -->
+    <rect x="48" y="150" width="304" height="118" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#stSh)"/>
+    <rect x="48" y="150" width="304" height="118" rx="18" fill="none" stroke="#5B6CFF" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.16;0.18;0.2;0.4;0.6;0.8;0.98;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="68" y="178" font-size="12" font-weight="600" letter-spacing="1.5" fill="#86868B">LANGUAGES</text>
+    <!-- chips -->
+    <g>
+      <rect x="68" y="192" width="52" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="68" y="192" width="52" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.12;0.14;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="94" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Go</text>
+    </g>
+    <g>
+      <rect x="128" y="192" width="48" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="128" y="192" width="48" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.06;0.14;0.16;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="152" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">TS</text>
+    </g>
+    <g>
+      <rect x="184" y="192" width="72" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="184" y="192" width="72" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.1;0.16;0.18;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="220" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Python</text>
+    </g>
+    <g>
+      <rect x="68" y="228" width="64" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="68" y="228" width="64" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1;0.12;0.18;0.2;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="100" y="247" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">React</text>
+    </g>
+    <g>
+      <rect x="140" y="228" width="56" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="140" y="228" width="56" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.12;0.14;0.18;0.2;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="168" y="247" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Next</text>
+    </g>
+    <g>
+      <rect x="204" y="228" width="64" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="204" y="228" width="64" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.14;0.16;0.2;0.22;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="236" y="247" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Astro</text>
+    </g>
+
+    <!-- Platform -->
+    <rect x="368" y="150" width="304" height="118" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#stSh)"/>
+    <rect x="368" y="150" width="304" height="118" rx="18" fill="none" stroke="#5B6CFF" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.18;0.2;0.36;0.38;0.6;0.8;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="388" y="178" font-size="12" font-weight="600" letter-spacing="1.5" fill="#86868B">PLATFORM</text>
+    <g>
+      <rect x="388" y="192" width="88" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="388" y="192" width="88" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.22;0.32;0.34;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="432" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Workers</text>
+    </g>
+    <g>
+      <rect x="484" y="192" width="88" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="484" y="192" width="88" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.24;0.26;0.34;0.36;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="528" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Postgres</text>
+    </g>
+    <g>
+      <rect x="388" y="228" width="72" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="388" y="228" width="72" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28;0.3;0.36;0.38;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="424" y="247" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Redis</text>
+    </g>
+    <g>
+      <rect x="468" y="228" width="80" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="468" y="228" width="80" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.32;0.34;0.38;0.4;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="508" y="247" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Docker</text>
+    </g>
+
+    <!-- Agents -->
+    <rect x="688" y="150" width="464" height="118" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#stSh)"/>
+    <rect x="688" y="150" width="464" height="118" rx="18" fill="none" stroke="#5B6CFF" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.36;0.38;0.4;0.56;0.58;0.8;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="708" y="178" font-size="12" font-weight="600" letter-spacing="1.5" fill="#86868B">AGENTS / RAG / EVAL / HITL</text>
+    <g>
+      <rect x="708" y="192" width="80" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="708" y="192" width="80" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.42;0.5;0.52;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="748" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Agents</text>
+    </g>
+    <g>
+      <rect x="796" y="192" width="56" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="796" y="192" width="56" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.44;0.46;0.52;0.54;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="824" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">RAG</text>
+    </g>
+    <g>
+      <rect x="860" y="192" width="56" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="860" y="192" width="56" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.48;0.5;0.54;0.56;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="888" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">Eval</text>
+    </g>
+    <g>
+      <rect x="924" y="192" width="64" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="924" y="192" width="64" height="28" rx="10" fill="none" stroke="#34C759" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.52;0.54;0.58;0.6;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="956" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">HITL</text>
+    </g>
+    <g>
+      <rect x="708" y="228" width="120" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <text x="768" y="247" text-anchor="middle" font-size="12" fill="#6E6E73">orchestration</text>
+    </g>
+    <g>
+      <rect x="836" y="228" width="112" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <text x="892" y="247" text-anchor="middle" font-size="12" fill="#6E6E73">hybrid retrieval</text>
+    </g>
+
+    <!-- 3D -->
+    <rect x="48" y="290" width="520" height="100" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#stSh)"/>
+    <rect x="48" y="290" width="520" height="100" rx="18" fill="none" stroke="#5B6CFF" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.56;0.58;0.6;0.74;0.76;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="68" y="318" font-size="12" font-weight="600" letter-spacing="1.5" fill="#86868B">3D</text>
+    <g>
+      <rect x="68" y="332" width="120" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="68" y="332" width="120" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.62;0.7;0.72;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="128" y="351" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">orbit viewers</text>
+    </g>
+    <g>
+      <rect x="196" y="332" width="120" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="196" y="332" width="120" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.64;0.66;0.72;0.74;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="256" y="351" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">splats / LOD</text>
+    </g>
+    <g>
+      <rect x="324" y="332" width="112" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="324" y="332" width="112" height="28" rx="10" fill="none" stroke="#5B6CFF" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.68;0.7;0.74;0.76;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="380" y="351" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">edge delivery</text>
+    </g>
+
+    <!-- Practice -->
+    <rect x="584" y="290" width="568" height="100" rx="18" fill="#FFFFFF" stroke="#ECECEF" filter="url(#stSh)"/>
+    <rect x="584" y="290" width="568" height="100" rx="18" fill="none" stroke="#34C759" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.74;0.76;0.78;0.8;0.94;0.96;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="604" y="318" font-size="12" font-weight="600" letter-spacing="1.5" fill="#86868B">PRACTICE</text>
+    <g>
+      <rect x="604" y="332" width="56" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="604" y="332" width="56" height="28" rx="10" fill="none" stroke="#34C759" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8;0.82;0.9;0.92;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="632" y="351" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">SDD</text>
+    </g>
+    <g>
+      <rect x="668" y="332" width="96" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="668" y="332" width="96" height="28" rx="10" fill="none" stroke="#34C759" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.84;0.86;0.92;0.94;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="716" y="351" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">OpenSpec</text>
+    </g>
+    <g>
+      <rect x="772" y="332" width="48" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <rect x="772" y="332" width="48" height="28" rx="10" fill="none" stroke="#34C759" stroke-width="1.75" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.88;0.9;0.94;0.96;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="796" y="351" text-anchor="middle" font-size="12" font-weight="600" fill="#1D1D1F">CI</text>
+    </g>
+    <g>
+      <rect x="828" y="332" width="140" height="28" rx="10" fill="#FBFBFD" stroke="#ECECEF"/>
+      <text x="898" y="351" text-anchor="middle" font-size="12" fill="#6E6E73">harness engineering</text>
+    </g>
+  </g>
+</svg>

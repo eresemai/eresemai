@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="t d">
+  <title id="t">Law domain ↔ Agentic systems ↔ Product delivery</title>
+  <desc id="d">Compact loop: law domain, agentic systems, and product delivery with moving packets and sequential highlights.</desc>
+  <defs>
+    <filter id="alSh" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.045"/>
+    </filter>
+    <linearGradient id="alFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5B6CFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" fill="#FBFBFD"/>
+  <text x="48" y="36" font-family="SF Pro Display, Inter, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#86868B">ERESEMAI</text>
+  <text x="48" y="68" font-family="SF Pro Display, Inter, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#1D1D1F">Law · Agents · Product</text>
+
+  <!-- loop connectors -->
+  <path id="alPathFwd" d="M220 160 C380 100, 820 100, 980 160" fill="none" stroke="#E5E5EA" stroke-width="2"/>
+  <path d="M220 160 C380 100, 820 100, 980 160" fill="none" stroke="url(#alFlow)" stroke-width="2.5"/>
+  <path id="alPathBack" d="M980 160 C820 220, 380 220, 220 160" fill="none" stroke="#E5E5EA" stroke-width="1.5" stroke-dasharray="5 6"/>
+  <path d="M980 160 C820 220, 380 220, 220 160" fill="none" stroke="#5B6CFF" stroke-width="1.5" stroke-dasharray="5 6" opacity="0.55">
+    <animate attributeName="stroke-dashoffset" values="0;-44" dur="1.8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- packets forward -->
+  <circle r="4.5" fill="#5B6CFF">
+    <animateMotion dur="2.8s" repeatCount="indefinite" path="M220,160 C380,100 820,100 980,160"/>
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="0.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#5B6CFF" opacity="0.8">
+    <animateMotion dur="2.8s" begin="0.9s" repeatCount="indefinite" path="M220,160 C380,100 820,100 980,160"/>
+  </circle>
+  <circle r="3.5" fill="#34C759" opacity="0.9">
+    <animateMotion dur="2.8s" begin="1.8s" repeatCount="indefinite" path="M220,160 C380,100 820,100 980,160"/>
+  </circle>
+  <!-- packets return -->
+  <circle r="3" fill="#5B6CFF" opacity="0.75">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M980,160 C820,220 380,220 220,160"/>
+  </circle>
+  <circle r="2.5" fill="#34C759" opacity="0.8">
+    <animateMotion dur="3.2s" begin="1.2s" repeatCount="indefinite" path="M980,160 C820,220 380,220 220,160"/>
+  </circle>
+
+  <g font-family="SF Pro Text, Inter, -apple-system, sans-serif">
+    <!-- Law -->
+    <rect x="80" y="118" width="280" height="84" rx="20" fill="#FFFFFF" stroke="#ECECEF" filter="url(#alSh)"/>
+    <rect x="80" y="118" width="280" height="84" rx="20" fill="none" stroke="#5B6CFF" stroke-width="2.5" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.28;0.32;0.5;0.75;0.96;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="112" cy="148" r="6" fill="#5B6CFF">
+      <animate attributeName="r" values="5;8;5" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="132" y="154" font-size="16" font-weight="600" fill="#1D1D1F">Law domain</text>
+    <text x="112" y="182" font-size="12" fill="#6E6E73">21y practice · governance · contracts</text>
+
+    <!-- Agentic -->
+    <rect x="460" y="118" width="280" height="84" rx="20" fill="#FFFFFF" stroke="#ECECEF" filter="url(#alSh)"/>
+    <rect x="460" y="118" width="280" height="84" rx="20" fill="none" stroke="#5B6CFF" stroke-width="2.5" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.28;0.32;0.58;0.62;0.8;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="492" cy="148" r="5" fill="#D2D2D7">
+      <animate attributeName="fill" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.3;0.32;0.58;0.62;1" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="5;5;8;8;5;5" keyTimes="0;0.3;0.32;0.58;0.62;1" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="512" y="154" font-size="16" font-weight="600" fill="#1D1D1F">Agentic systems</text>
+    <text x="492" y="182" font-size="12" fill="#6E6E73">orchestration · RAG · eval · HITL</text>
+
+    <!-- Product -->
+    <rect x="840" y="118" width="280" height="84" rx="20" fill="#FFFFFF" stroke="#ECECEF" filter="url(#alSh)"/>
+    <rect x="840" y="118" width="280" height="84" rx="20" fill="none" stroke="#34C759" stroke-width="2.5" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.58;0.62;0.64;0.68;0.92;0.96;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="872" cy="148" r="5" fill="#34C759">
+      <animate attributeName="r" values="4;7.5;4" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="892" y="154" font-size="16" font-weight="600" fill="#1D1D1F">Product delivery</text>
+    <text x="872" y="182" font-size="12" fill="#6E6E73">SDD · ship · edge platforms</text>
+  </g>
+
+  <text x="48" y="252" font-family="SF Pro Text, Inter, sans-serif" font-size="12" fill="#86868B">Closed loop — domain judgment feeds agent constraints; product feedback sharpens the law layer.</text>
+</svg>
