@@ -1,51 +1,192 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="t d">
   <title id="t">ERESEMAI — Serhii Rozum, Legal AI Engineer / Architect</title>
-  <desc id="d">Apple-minimal light hero with ERESEMAI wordmark and Spec–Agent–Eval loop. Soft SMIL motion. No logos.</desc>
+  <desc id="d">Apple-minimal light hero with multi-node agentic engineering graph: Spec, Plan, Agent, Eval, Ship. SMIL packets, orbits, pulses.</desc>
   <defs>
-    <filter id="s" x="-10%" y="-10%" width="130%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000000" flood-opacity="0.05"/>
+    <filter id="s" x="-12%" y="-12%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#000000" flood-opacity="0.055"/>
     </filter>
     <linearGradient id="ringFlow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0.15"/>
-      <stop offset="50%" stop-color="#5B6CFF" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0.15"/>
-      <animate attributeName="x1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="y1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1;0;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="1;0;1" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0.12"/>
+      <stop offset="45%" stop-color="#5B6CFF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0.12"/>
+      <animate attributeName="x1" values="0;1;0" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0;1;0" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="1;0;1" dur="4.5s" repeatCount="indefinite"/>
     </linearGradient>
+    <linearGradient id="edgeFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5B6CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5B6CFF" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;1" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="2.2s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#E8E8ED" stroke-width="0.6"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="420" fill="#FBFBFD"/>
-  <rect x="56" y="56" width="1088" height="308" rx="28" fill="#FFFFFF" stroke="#ECECEF" filter="url(#s)"/>
-  <text x="100" y="120" font-family="SF Pro Display, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#86868B">ERESEMAI</text>
-  <text x="100" y="188" font-family="SF Pro Display, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="48" font-weight="600" fill="#1D1D1F">Serhii Rozum</text>
-  <text x="100" y="230" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="400" fill="#6E6E73">Legal AI Engineer / Architect</text>
-  <text x="100" y="286" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#1D1D1F">Agentic Engineering · SDD · AI SDLC · Agentic Architecture</text>
-  <text x="100" y="318" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#86868B">Munich</text>
 
-  <g transform="translate(780,120)">
-    <circle cx="80" cy="80" r="70" fill="none" stroke="#E5E5EA" stroke-width="1.5"/>
-    <circle cx="80" cy="80" r="70" fill="none" stroke="url(#ringFlow)" stroke-width="2" stroke-dasharray="8 10">
-      <animate attributeName="stroke-dashoffset" values="0;72" dur="10s" repeatCount="indefinite"/>
+  <rect width="1200" height="460" fill="#FBFBFD"/>
+  <rect x="48" y="40" width="1104" height="380" rx="28" fill="#FFFFFF" stroke="#ECECEF" filter="url(#s)"/>
+
+  <!-- soft blueprint grid behind diagram only -->
+  <g opacity="0.45" clip-path="none">
+    <rect x="700" y="70" width="420" height="320" fill="url(#grid)" opacity="0.55"/>
+  </g>
+
+  <!-- subtle corner brackets (engineering motif) -->
+  <g stroke="#D2D2D7" stroke-width="1.25" fill="none" opacity="0.85">
+    <path d="M72 72h28M72 72v28"/>
+    <path d="M1128 72h-28M1128 72v28"/>
+    <path d="M72 388h28M72 388v-28"/>
+    <path d="M1128 388h-28M1128 388v-28"/>
+  </g>
+
+  <!-- left identity -->
+  <text x="92" y="108" font-family="SF Pro Display, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#86868B">ERESEMAI</text>
+  <text x="92" y="176" font-family="SF Pro Display, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="46" font-weight="600" fill="#1D1D1F">Serhii Rozum</text>
+  <text x="92" y="216" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="19" font-weight="400" fill="#6E6E73">Legal AI Engineer / Architect</text>
+  <text x="92" y="268" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#1D1D1F">Agentic Engineering · SDD · AI SDLC · Agentic Architecture</text>
+  <text x="92" y="302" font-family="SF Pro Text, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#86868B">Munich</text>
+
+  <!-- right: multi-node agent graph -->
+  <g transform="translate(760,95)">
+    <!-- outer dashed orbit -->
+    <circle cx="160" cy="155" r="128" fill="none" stroke="#E5E5EA" stroke-width="1"/>
+    <circle cx="160" cy="155" r="128" fill="none" stroke="url(#ringFlow)" stroke-width="2" stroke-dasharray="6 9">
+      <animate attributeName="stroke-dashoffset" values="0;-90" dur="7s" repeatCount="indefinite"/>
     </circle>
-    <!-- Spec node -->
-    <circle cx="80" cy="20" r="11" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
-      <animate attributeName="stroke" values="#D2D2D7;#5B6CFF;#D2D2D7;#D2D2D7;#D2D2D7" keyTimes="0;0.08;0.25;0.33;1" dur="7.5s" repeatCount="indefinite"/>
+    <!-- inner dashed orbit -->
+    <circle cx="160" cy="155" r="78" fill="none" stroke="#E8E8ED" stroke-width="1" stroke-dasharray="3 6">
+      <animate attributeName="stroke-dashoffset" values="0;54" dur="9s" repeatCount="indefinite"/>
     </circle>
-    <!-- Agent node -->
-    <circle cx="140" cy="110" r="11" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
-      <animate attributeName="stroke" values="#D2D2D7;#D2D2D7;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.33;0.41;0.58;1" dur="7.5s" repeatCount="indefinite"/>
+
+    <!-- graph edges (static + flow overlay) -->
+    <!-- Spec(160,40) Plan(250,100) Agent(250,210) Eval(70,210) Ship(70,100) + center -->
+    <g stroke="#E5E5EA" stroke-width="1.5" fill="none">
+      <path id="eSP" d="M160 52 L236 92"/>
+      <path id="ePA" d="M250 116 L250 194"/>
+      <path id="eAE" d="M236 218 L94 218"/>
+      <path id="eES" d="M70 194 L70 116"/>
+      <path id="eSS" d="M94 92 L160 52"/>
+      <path id="eCA" d="M160 155 L250 210"/>
+      <path id="eCE" d="M160 155 L70 210"/>
+    </g>
+    <g stroke="url(#edgeFlow)" stroke-width="2" fill="none">
+      <path d="M160 52 L236 92"/>
+      <path d="M250 116 L250 194"/>
+      <path d="M236 218 L94 218"/>
+      <path d="M70 194 L70 116"/>
+      <path d="M94 92 L160 52"/>
+    </g>
+
+    <!-- packets along pentagon cycle -->
+    <circle r="3.5" fill="#5B6CFF">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M160,52 L236,92 L250,210 L94,210 L70,100 Z"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite"/>
     </circle>
-    <!-- Eval node -->
-    <circle cx="20" cy="110" r="11" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
-      <animate attributeName="stroke" values="#D2D2D7;#D2D2D7;#D2D2D7;#5B6CFF;#D2D2D7" keyTimes="0;0.58;0.66;0.83;1" dur="7.5s" repeatCount="indefinite"/>
+    <circle r="2.5" fill="#5B6CFF" opacity="0.75">
+      <animateMotion dur="5s" repeatCount="indefinite" begin="1.6s" path="M160,52 L236,92 L250,210 L94,210 L70,100 Z"/>
     </circle>
-    <text x="80" y="24" text-anchor="middle" font-size="8" fill="#6E6E73" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Spec</text>
-    <text x="140" y="114" text-anchor="middle" font-size="8" fill="#6E6E73" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Agent</text>
-    <text x="20" y="114" text-anchor="middle" font-size="8" fill="#6E6E73" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Eval</text>
-    <circle cx="80" cy="80" r="4" fill="#5B6CFF">
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="3.5;5;3.5" dur="2.4s" repeatCount="indefinite"/>
+    <circle r="2.5" fill="#34C759" opacity="0.85">
+      <animateMotion dur="5s" repeatCount="indefinite" begin="3.2s" path="M160,52 L236,92 L250,210 L94,210 L70,100 Z"/>
     </circle>
+    <!-- spoke packets to center -->
+    <circle r="2.2" fill="#5B6CFF">
+      <animateMotion dur="2.4s" repeatCount="indefinite" path="M250,210 L160,155"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.2" fill="#5B6CFF">
+      <animateMotion dur="2.4s" repeatCount="indefinite" begin="1.2s" path="M70,210 L160,155"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- NODE: Spec (top) -->
+    <g>
+      <circle cx="160" cy="40" r="22" fill="none" stroke="#5B6CFF" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;0.85;0;0;0" keyTimes="0;0.08;0.18;0.2;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="18;26;18;18;18" keyTimes="0;0.08;0.18;0.2;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="160" cy="40" r="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
+        <animate attributeName="stroke" values="#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7;#D2D2D7;#D2D2D7" keyTimes="0;0.16;0.2;0.4;0.8;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="160" cy="40" r="4" fill="#5B6CFF">
+        <animate attributeName="opacity" values="1;1;0.45;0.45;0.45;1" keyTimes="0;0.16;0.2;0.4;0.8;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="160" y="68" text-anchor="middle" font-size="11" font-weight="600" fill="#1D1D1F" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Spec</text>
+    </g>
+
+    <!-- NODE: Plan (top-right) -->
+    <g>
+      <circle cx="250" cy="100" r="22" fill="none" stroke="#5B6CFF" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;0;0.85;0;0;0" keyTimes="0;0.16;0.24;0.34;0.36;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="18;18;26;18;18;18" keyTimes="0;0.16;0.24;0.34;0.36;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="250" cy="100" r="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
+        <animate attributeName="stroke" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.16;0.2;0.36;0.4;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="250" cy="100" r="4" fill="#D2D2D7">
+        <animate attributeName="fill" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.16;0.2;0.36;0.4;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="278" y="104" font-size="11" font-weight="600" fill="#1D1D1F" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Plan</text>
+    </g>
+
+    <!-- NODE: Agent (bottom-right) -->
+    <g>
+      <circle cx="250" cy="210" r="22" fill="none" stroke="#5B6CFF" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0.85;0;0" keyTimes="0;0.32;0.36;0.44;0.54;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="18;18;18;26;18;18" keyTimes="0;0.32;0.36;0.44;0.54;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="250" cy="210" r="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
+        <animate attributeName="stroke" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.36;0.4;0.56;0.6;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="250" cy="210" r="4.5" fill="#D2D2D7">
+        <animate attributeName="fill" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.36;0.4;0.56;0.6;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4;4;5.5;5.5;4;4" keyTimes="0;0.36;0.4;0.56;0.6;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="250" y="240" text-anchor="middle" font-size="11" font-weight="600" fill="#1D1D1F" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Agent</text>
+    </g>
+
+    <!-- NODE: Eval (bottom-left) -->
+    <g>
+      <circle cx="70" cy="210" r="22" fill="none" stroke="#5B6CFF" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;0.85;0;0" keyTimes="0;0.52;0.56;0.58;0.64;0.74;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="18;18;18;18;26;18;18" keyTimes="0;0.52;0.56;0.58;0.64;0.74;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="70" cy="210" r="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
+        <animate attributeName="stroke" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.56;0.6;0.76;0.8;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="70" cy="210" r="4" fill="#D2D2D7">
+        <animate attributeName="fill" values="#D2D2D7;#D2D2D7;#5B6CFF;#5B6CFF;#D2D2D7;#D2D2D7" keyTimes="0;0.56;0.6;0.76;0.8;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="70" y="240" text-anchor="middle" font-size="11" font-weight="600" fill="#1D1D1F" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Eval</text>
+    </g>
+
+    <!-- NODE: Ship (top-left) -->
+    <g>
+      <circle cx="70" cy="100" r="22" fill="none" stroke="#34C759" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;0;0.9;0;0" keyTimes="0;0.72;0.76;0.78;0.8;0.88;0.96;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="18;18;18;18;18;26;18;18" keyTimes="0;0.72;0.76;0.78;0.8;0.88;0.96;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="70" cy="100" r="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5">
+        <animate attributeName="stroke" values="#D2D2D7;#D2D2D7;#34C759;#34C759;#D2D2D7;#D2D2D7" keyTimes="0;0.76;0.8;0.96;0.98;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="70" cy="100" r="4" fill="#34C759">
+        <animate attributeName="opacity" values="0.5;0.5;1;1;0.5;0.5" keyTimes="0;0.76;0.8;0.96;0.98;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="104" text-anchor="end" font-size="11" font-weight="600" fill="#1D1D1F" font-family="SF Pro Text, Inter, -apple-system, sans-serif">Ship</text>
+    </g>
+
+    <!-- center hub -->
+    <circle cx="160" cy="155" r="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1.5"/>
+    <circle cx="160" cy="155" r="6" fill="#5B6CFF">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="5;7.5;5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="155" r="12" fill="none" stroke="#5B6CFF" stroke-width="1" opacity="0.35">
+      <animate attributeName="r" values="10;16;10" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="160" y="186" text-anchor="middle" font-size="10" fill="#86868B" font-family="SF Pro Text, Inter, -apple-system, sans-serif">loop</text>
   </g>
 </svg>

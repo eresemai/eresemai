@@ -17,7 +17,7 @@ I design and ship production systems where **law, agents, and product engineerin
 
 **21 years in law** (governance & private practice) as the domain layer. Founder / operator since 2017. Day-to-day: **Agentic Engineering**, **SDD / OpenSpec**, **AI SDLC**, and **Agentic Architecture** — specs first, constrained agent loops, humans on the critical path when judgment matters.
 
-Based in Munich · **ERESEMAI** (ERESEM + AI).
+Based in Munich · **ERESEMAI**
 
 ---
 
