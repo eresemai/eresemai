@@ -11,6 +11,38 @@ Agentic Engineering · Spec-Driven Development · AI SDLC · Agentic Architectur
 
 ---
 
+## TL;DR for hiring managers
+
+1. **Role:** Legal AI Engineer / Architect — agentic systems, SDD/AI SDLC, production delivery  
+2. **Proof:** [Legal AI architecture notes](https://github.com/eresemai/legal-ai-agentic-architecture) · [RE 3D interactive notes](https://github.com/eresemai/re-3d-interactive-architecture) · Evidence below  
+3. **Next step:** message on [LinkedIn](https://www.linkedin.com/in/serhiirozum) with **problem + constraints** (advisory / build / research)
+
+---
+
+## Who I hire for / not for
+
+**Strong fit**
+- AI Solutions / Legal AI roles inside law firms & legal departments  
+- AI Architect / Agentic systems lead (enterprise transformation)  
+- Forward-deployed AI engineer embedding agents into real workflows  
+- Platform / product-eng hybrid for interactive 3D experiences in real estate  
+
+**Usually not a fit**
+- Ticket-factory “LLM wrapper” junior roles  
+- Pure academic research without shipping ownership  
+- Narrow vendor-tool consulting with no architecture ownership  
+- Unrelated hardware / automotive robotics IC tracks  
+
+---
+
+## How I decide (operating principles)
+
+1. **Spec before agents** — contracts and SDD before autonomous loops  
+2. **HITL on irreversible actions** — humans remain final authority where law/business risk is real  
+3. **Eval before scale** — measure legal/task quality before widening blast radius  
+4. **Publish ≠ admin power** — buyer/embed surfaces never inherit privileged controls  
+5. **Domain law as constraint** — legal requirements shape architecture, not slideware  
+
 ## About
 
 I design and ship production systems where **law, agents, and product engineering** meet — Legal AI architectures, multi-agent document workflows, evaluation harnesses, and interactive 3D platforms for real estate developers.
