@@ -52,13 +52,13 @@ I design and ship production systems where **law, agents, and product engineerin
 `Go` `TypeScript` `Python` `React` `Next.js` `Astro`
 
 **Platform & data**  
-`Cloudflare Workers` `PostgreSQL` `Redis` `Docker` `REST / GraphQL` `Neon`
+`Edge workers` `PostgreSQL` `Redis` `Docker` `REST / GraphQL`
 
 **Agents, RAG & evaluation**  
 `Agent orchestration` `RAG` `Hybrid retrieval` `Eval harnesses` `HITL gates` `LangGraph / LangChain` `CrewAI` (where it fits)
 
 **3D & spatial product**  
-`Pre-rendered orbit / interactive viewers` `Gaussian Splats / LOD` `Edge delivery` `Admin tooling` `iframe / white-label embed`
+`Browser 3D interactives` `Publish / edge delivery` `Admin tooling` `Embeddable experiences`
 
 **Delivery practice**  
 `OpenSpec / SDD` `TDD` `CI` `Skills & harness engineering` `Claude Code` `Codex` `Cursor`
@@ -81,9 +81,9 @@ Not a static “presentation deck” — **product platforms** for developers:
 - **3D interactives** — orbit viewers, master plans, facade mapping, unit inventory UX
 - **3D visualization pipelines** — ingest → process → render → edge delivery
 - **3D marketing surfaces** — buyer-facing experiences, admin publish flows, embed / white-label delivery
-- Photoreal **in-browser** apartment exploration (splat / LOD-style delivery) with manager tooling
+- **In-browser** project exploration with manager publish tooling
 
-`Go` `TypeScript` `React` `Astro` `Next.js` `PostgreSQL` `Cloudflare Workers` `Edge`
+`Go` `TypeScript` `React` `Next.js` / `Astro` `PostgreSQL` `Edge delivery`
 
 ---
 
