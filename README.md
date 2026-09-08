@@ -14,7 +14,7 @@ Agentic Engineering · Spec-Driven Development · AI SDLC · Agentic Architectur
 ## TL;DR for hiring managers
 
 1. **Role:** Legal AI Engineer / Architect — agentic systems, SDD/AI SDLC, production delivery  
-2. **Proof:** [Legal AI notes](https://github.com/eresemai/legal-ai-agentic-architecture) · [Case one-pager](https://github.com/eresemai/legal-ai-agentic-architecture/blob/main/docs/case-one-pager.md) · [Eval harness](https://github.com/eresemai/legal-eval-harness) · [RE 3D notes](https://github.com/eresemai/re-3d-interactive-architecture) · Evidence below  
+2. **Proof:** [Legal AI notes](https://github.com/eresemai/legal-ai-agentic-architecture) · [Case one-pager](https://github.com/eresemai/legal-ai-agentic-architecture/blob/main/docs/case-one-pager.md) · [Eval harness](https://github.com/eresemai/legal-eval-harness) · [Agent loop](https://github.com/eresemai/reference-agent-loop) · [RE 3D notes](https://github.com/eresemai/re-3d-interactive-architecture) · Evidence below  
 3. **Next step:** message on [LinkedIn](https://www.linkedin.com/in/serhiirozum) with **problem + constraints** (advisory / build / research)
 
 ---
@@ -153,6 +153,7 @@ Hybrid retrieval over legislation and case material, reranking for legal termino
 | **Migration / multilingual support agents** | UA · DE · EN routing across legal consult, docs, translation | Agents · multilingual NLP · privacy-by-design |
 | **Public SDD greenfield** | Bilingual invoice app as agentic / OpenSpec practice | [Invoice Maker (Fwdays 2026)](https://github.com/eresemai/2026-fwdays-agentic-greenfield-task-INVOICE-MAKER-2026) · Next.js · TypeScript · SDD |
 | **Eval harness (public)** | Synthetic legal-ish cases + deterministic graders | [legal-eval-harness](https://github.com/eresemai/legal-eval-harness) · Python · pytest |
+| **Reference agent loop** | plan → tool → draft → HITL → deliver/block | [reference-agent-loop](https://github.com/eresemai/reference-agent-loop) · Python · pytest |
 | **Agent skills (fork)** | Upstream skills pack used in daily agentic practice | [skills](https://github.com/eresemai/skills) · fork of [coleam00/skills](https://github.com/coleam00/skills) |
 
 ---
