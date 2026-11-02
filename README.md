@@ -11,8 +11,6 @@ Agentic Engineering · Spec-Driven Development · AI SDLC · Agentic Architectur
 
 ---
 
-## TL;DR for hiring managers
-
 1. **Role:** Legal AI Engineer / Architect — agentic systems, SDD/AI SDLC, production delivery  
 2. **Proof:** [Legal AI notes](https://github.com/eresemai/legal-ai-agentic-architecture) · [Case one-pager](https://github.com/eresemai/legal-ai-agentic-architecture/blob/main/docs/case-one-pager.md) · [Eval harness](https://github.com/eresemai/legal-eval-harness) · [Agent loop](https://github.com/eresemai/reference-agent-loop) · [RE 3D notes](https://github.com/eresemai/re-3d-interactive-architecture) · Evidence below  
 3. **Next step:** message on [LinkedIn](https://www.linkedin.com/in/serhiirozum) with **problem + constraints** (advisory / build / research)
